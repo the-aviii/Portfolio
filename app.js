@@ -1,5 +1,6 @@
 const burger = document.querySelector(".burger");
 const navbar = document.querySelector(".navContent");
+var appText = document.getElementById('appText');
 
 burger.addEventListener("click",()=>{
     console.log("Hello");
@@ -7,6 +8,18 @@ burger.addEventListener("click",()=>{
     navbar.classList.toggle("navOpen");
 });
 
+var typewriter = new Typewriter(appText, {
+    loop: true,
+    delay: 80,
+    deleteSpeed: 40,
+    strings: [
+        "Photographer",
+        "Cinematographer",
+        "Freelancer"
+    ],
+    autoStart: true,
+    pauseFor: 2000, 
+})
 
 let tl1 = gsap.timeline({ defaults: {
     opacity: 0
