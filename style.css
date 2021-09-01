@@ -131,7 +131,7 @@ nav{
     font-family: var(--fTitle);
     font-size: 52px;
     font-weight: 800;
-    margin-bottom: 24px;
+    margin-bottom: 18px;
 }
 .heroContent .heroTitle p{
     font-size: 82px;
@@ -139,9 +139,12 @@ nav{
 }
 .heroDes{
     word-spacing: 2px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 500;
-    margin-bottom: 32px;
+    margin-bottom: 22px;
+}
+.heroDes span{
+    font-size: 32px;
 }
 .heroBtns{
     margin-top: 20px;
@@ -485,6 +488,9 @@ nav{
         font-size: 16px;
         margin-bottom: 16px;
         text-align: center;
+    }
+    .heroDes span{
+        font-size: 20px;
     }
     .heroBtns{
         display: flex;
